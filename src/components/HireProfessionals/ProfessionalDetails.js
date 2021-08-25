@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import CategoryNavbar from "../Shared/Navbars/CategoryNavbar/CategoryNavbar";
 import ServiceNavbar from "../Shared/Navbars/ServiceNavbar/ServiceNavbar";
 import TopNavbar from "../Shared/Navbars/TopNavbar/TopNavbar";
-import loaderImg from "../Shared/Navbars/TopNavbar/Assets/Logo-materialBuy.png";
+import loaderImg from "../Shared/Navbars/TopNavbar/Assets/3dpng.png";
 import "./hireProfessionas.css";
 import { Link } from "react-router-dom";
 import BottomFooter from "../Shared/Footer/BottomFooter";

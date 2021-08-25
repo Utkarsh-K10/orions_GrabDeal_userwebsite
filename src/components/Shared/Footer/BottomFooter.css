@@ -1,6 +1,6 @@
 footer.nb-footer {
   background: #222;
-  border-top: 6px solid #297e8e;
+  border-top: 6px solid #f39c12;
 }
 
 footer.nb-footer .footer-info-single {
@@ -10,7 +10,7 @@ footer.nb-footer .footer-info-single .title {
   color: #aaa;
   text-transform: uppercase;
   font-size: 16px;
-  border-left: 4px solid #297e8e;
+  border-left: 4px solid #f39c12;
   padding-left: 5px;
   border-bottom-width: 25%;
 }

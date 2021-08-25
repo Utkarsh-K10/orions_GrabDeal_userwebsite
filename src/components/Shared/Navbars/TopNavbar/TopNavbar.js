@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./TopNavbar.css";
 import cart from "./Assets/cart.png";
 import offer from "./Assets/offer icon.png";
-import logo from "./Assets/Logo-materialBuy.png";
+import logo from "./Assets/3dpng.png";
 import { RiSearchLine } from "react-icons/ri";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImUserCheck } from "react-icons/im";

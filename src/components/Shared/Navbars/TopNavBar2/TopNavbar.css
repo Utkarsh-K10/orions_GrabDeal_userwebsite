@@ -1,6 +1,8 @@
 /* NAVBAR */
 .topnavbar__back {
   background-color: #f1c40f !important;
+  height: 90px !important;
+  /* margin-bottom: 10px; */
 }
 .Navbar {
   display: grid;
@@ -11,7 +13,6 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
   padding: 10px 40px;
   /* padding: 10px 40px; */
-  /* background-color: #f39c12; */
   background-color: #ffffff;
 }
 
@@ -26,7 +27,7 @@
 }
 
 .navbarBtn {
-  color: #297e8e;
+  color: #f39c12;
   font-size: 26px !important;
   /* padding: 20px; */
   /* border: 2px solid #297E8E; */
@@ -41,8 +42,11 @@
 }
 
 .Logo {
-  height: 80px;
+  height: 60px;
   width: auto;
+  margin-left: 10px;
+  margin-right: 10px !important;
+  /* padding-right: 10px; */
 }
 
 .textRightSection {
@@ -133,7 +137,7 @@ select:focus {
   height: 36px;
   border: none;
   border-radius: 4px;
-  background-color: #dd412d;
+  background-color: #e67e22;
   color: #ffffff;
   font-size: 20px;
   align-items: center;
@@ -147,12 +151,13 @@ select:focus {
 
 /* POST YOUR ENQUIRY */
 .Enquiry {
-  /* color: #297e8e !important; */
+  color: white !important;
   /* font-size: 18px; */
+
   font-size: 1.5rem;
   font-weight: 500;
   width: 100%;
-  /* margin-left: 0.8rem; */
+  margin-left: 0.8rem;
 }
 
 /* MODAL CONTENT STYLING */
@@ -189,7 +194,7 @@ select:focus {
   margin: 30px !important;
 }
 .ContinueLoginLink {
-  background-color: #297e8e;
+  background-color: #f39c12;
   margin: 10px !important;
   color: #ffffff;
   padding: 5px 10px;
@@ -200,12 +205,12 @@ select:focus {
 .CompleteProfileBtn {
   width: 200px;
   font-size: 18px;
-  color: #297e8e;
+  color: #f39c12;
   font-weight: 600;
 }
 
 .CompleteProfileBtn:hover {
-  border: 2px solid #297e8e;
+  border: 2px solid #f39c12;
 }
 
 .LogoutBtn {
@@ -213,16 +218,16 @@ select:focus {
   height: 36px;
   border: none;
   border-radius: 4px;
-  background-color: #dd412d;
+  background-color: #f39c12;
   color: #ffffff;
   font-size: 16px;
   align-items: center;
-  border: 2px solid #dd412d;
+  border: 2px solid #f39c12;
 }
 
 .LogoutBtn:hover {
   background-color: #fff;
-  color: #dd412d;
+  color: #f39c12;
   font-weight: 600;
 }
 
@@ -234,7 +239,7 @@ select:focus {
 .LoggedInuser {
   background-color: #fff !important;
   font-size: 36px !important;
-  color: #dd412d !important;
+  color: #f39c12 !important;
   padding: 10px !important;
   margin: 0 !important;
 }
@@ -250,7 +255,7 @@ select:focus {
 }
 #lblCartCount {
   font-size: 1.3rem;
-  background: #ff0000;
+  background: #f39c12;
   color: #fff;
   padding: 0 5px;
   vertical-align: top;
@@ -270,7 +275,8 @@ select:focus {
 }
 .ri-shopping-cart-2-fill {
   font-size: 3rem;
-  color: #c67605;
+  color: #e67e22;
+  /* color: #e67e22; */
 }
 @media only screen and (max-width: 1086px) {
   .search-btn {
@@ -306,7 +312,7 @@ select:focus {
     object-fit: inherit;
   }
   .ContinueLoginLink {
-    background-color: #297e8e;
+    background-color: #f39c12;
     border-radius: 7px;
     /* margin: 5px !important; */
     display: flex;
@@ -357,6 +363,7 @@ select:focus {
 
   .CartIcon {
     padding: 20px 0;
+    color: #e57e22 !important;
   }
 
   .search-input {
@@ -427,7 +434,9 @@ select:focus {
 }
 
 .ui.icon.input {
-  border: 1px solid red;
+  /* border: 1px solid black; */
+  border: 1px solid #e67e22;
+
   width: 50vw;
   /* max-width: 870px; */
   width: 52vw !important;
@@ -547,4 +556,13 @@ select:focus {
   .fa-user {
     font-size: 2rem;
   }
+}
+
+.postenq__topnavbar {
+  color: #e67e22 !important;
+  background-color: #e67e22 !important;
+}
+
+.temptemp {
+  height: 1000px !important;
 }

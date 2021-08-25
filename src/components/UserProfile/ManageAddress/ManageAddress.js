@@ -166,7 +166,7 @@ const ManageAddress = () => {
         <>
           <h2 className="mb-4">Manage Address</h2>
           <Link to="AddAddressForm">
-            <div className="step-3 EditAdd align-items-center container text-start d-flex justify-content-start p-4 mt-5 mb-2">
+            <div className=" EditAdd align-items-center container text-start d-flex justify-content-start p-4 mt-5 mb-2">
               <HiOutlinePlusCircle className="h1 plusIco" />
               <h3>Add Address</h3>
             </div>

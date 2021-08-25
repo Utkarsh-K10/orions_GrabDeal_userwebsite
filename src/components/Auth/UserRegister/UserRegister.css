@@ -58,7 +58,7 @@
 }
 
 .SignUpIco {
-  color: #dd412d;
+  color: #f39c12 !important;
   font-size: 35px;
   margin-right: 15px;
 }
@@ -79,7 +79,7 @@
   width: 100%;
   padding: 4px 0;
   text-align: center;
-  background-color: #dd4128;
+  background-color: #f39c12 !important;
   color: #fff;
   font-weight: 500;
   font-size: 1.5rem;
@@ -105,7 +105,7 @@
 .OldUserLink {
   font-size: 1.5rem;
   font-weight: 500;
-  color: #297e8e !important;
+  color: #f39c12 !important;
 }
 
 .loginbtn:hover {
@@ -143,7 +143,7 @@
   font-weight: 800;
 }
 .userLoginSuccess-container div button {
-  background-color: #297e8e;
+  background-color: #f39c12;
   color: white;
   font-size: 20px;
   padding: 6px 20px;

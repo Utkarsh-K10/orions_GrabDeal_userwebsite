@@ -32,11 +32,11 @@
 .nextImg,
 .prevImg {
   align-self: center;
-  color: #297d8e;
+  color: #f39c12;
 }
 .btnAdd2 {
-  border: solid 3px #297d8e;
-  background-color: #297d8e;
+  border: solid 3px #f39c12;
+  background-color: #f39c12;
   padding: 6px 47px 6px 25px !important;
   color: #ffffff;
   font-weight: 400;
@@ -45,16 +45,16 @@
 }
 
 .btnBuy2 {
-  border: solid 3px #dd412d;
-  background-color: #dd412d;
+  border: solid 3px #f39c12;
+  background-color: #f39c12;
   padding: 6px 47px 6px 25px !important;
   color: #ffffff;
   font-weight: 400;
   font-size: 18px;
   width: 23rem;
 }
-/* border: solid 3px #297d8e;
-  background-color: #297d8e;
+/* border: solid 3px #f39c12;
+  background-color: #f39c12;
   padding: 3px 30px !important;
   width: 13rem;
   color: white;
@@ -88,18 +88,18 @@
 }
 
 .btnAdd:hover {
-  box-shadow: -4px 4px 16px -5px #297d8e;
-  -webkit-box-shadow: -4px 4px 16px -5px #297d8e;
-  -moz-box-shadow: -4px 4px 16px -5px #297d8e;
+  box-shadow: -4px 4px 16px -5px #f39c12;
+  -webkit-box-shadow: -4px 4px 16px -5px #f39c12;
+  -moz-box-shadow: -4px 4px 16px -5px #f39c12;
   /* transform: translate(0,-10px); */
 }
 
 .checkbtn {
-  color: #297d8e !important;
+  color: #e67e22 !important;
 }
 
 .location {
-  color: #297d8e;
+  color: #f39c12;
 }
 
 ul {
@@ -108,7 +108,7 @@ ul {
 
 .list li::before {
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #297d8e; /* Change the color */
+  color: #f39c12; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
@@ -128,7 +128,7 @@ ul {
 }
 
 .colord {
-  color: #297d8e !important;
+  color: #e67e22 !important;
 }
 
 .recomd {
@@ -137,7 +137,7 @@ ul {
   /* display: inline; */
   padding: 4em;
   align-self: center;
-  color: #297d8e;
+  color: #f39c12;
   font-weight: 700;
 }
 
@@ -148,7 +148,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #297d8e;
+  background-color: #f39c12;
   width: 100%;
   /* position: relative;
   margin-left: 16px; */
@@ -289,7 +289,7 @@ button {
 }
 
 .compareBtn:hover {
-  background-color: #297d8e;
+  background-color: #f39c12;
   color: #ffffff !important;
 }
 
@@ -300,7 +300,7 @@ button {
 }
 
 .productCheckLabel {
-  color: #297d8e !important;
+  color: #e67e22 !important;
   font-weight: 700;
 }
 

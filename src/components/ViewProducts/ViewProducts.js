@@ -4,7 +4,7 @@ import TopNavbar from "../Shared/Navbars/TopNavbar/TopNavbar.js";
 import CategoryNavbar from "../Shared/Navbars/CategoryNavbar/CategoryNavbar.js";
 import ServiceNavbar from "../Shared/Navbars/ServiceNavbar/ServiceNavbar.js";
 import Footer from "../Shared/Footer/Footer.js";
-import loaderImg from "./../Shared/Navbars/TopNavbar/Assets/Logo-materialBuy.png";
+import loaderImg from "./../Shared/Navbars/TopNavbar/Assets/3dpng.png";
 import "./ViewProducts.css";
 import axios from "axios";
 import { Link, useHistory, useParams } from "react-router-dom";
@@ -12,6 +12,7 @@ import Notiflix from "notiflix";
 import { UserContext } from "../../App";
 import emptyimg from "../Assets/empty/empty.png";
 import PrimarySearchAppBar from "../Shared/Navbars/TopNavBar2/TopNavBar2";
+import BottomFooter from "../Shared/Footer/BottomFooter";
 
 const ViewProducts = () => {
   const [loading, setLoading] = useState(true);
@@ -180,7 +181,8 @@ const ViewProducts = () => {
             </div>
           </>
 
-          <Footer></Footer>
+          {/* <Footer></Footer> */}
+          <BottomFooter></BottomFooter>
         </div>
       )}
     </div>

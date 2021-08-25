@@ -49,7 +49,7 @@
   top: -15px;
   left: 150px;
   font-size: 3rem;
-  color: #dd4128;
+  color: #e67e22 !important;
 }
 .form-control:focus {
   outline: none !important;
@@ -72,7 +72,7 @@
 }
 .loginBtn {
   margin-top: 40px !important;
-  background-color: #dd4128;
+  background-color: #e67e22 !important;
   color: #ffff;
   border: none;
 }
@@ -88,8 +88,8 @@
 }
 .reqOtpBtn {
   background-color: #fff;
-  border: 2px solid #297e8e;
-  color: #297e8e;
+  border: 2px solid #f39c12 !important;
+  color: #f39c12 !important;
 }
 
 .reqOtpBtn:hover {
@@ -132,7 +132,7 @@
 }
 
 .userLoginSuccess-container div button {
-  background-color: #297e8e;
+  background-color: #f39c12 !important;
   color: white;
   font-size: 20px;
   padding: 6px 20px;
@@ -140,7 +140,7 @@
   font-weight: 500;
 }
 .signup-link {
-  color: #297e8e;
+  color: #f39c12 !important;
   font-size: 1.5rem;
   margin: 40px 0;
   font-weight: 500;

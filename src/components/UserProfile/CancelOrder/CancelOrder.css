@@ -1,108 +1,108 @@
-.CancelMain{
-    margin: 8px 0;
+.CancelMain {
+  margin: 8px 0;
 }
-.OrderDetailBtn{
-    width: 200px;
-    border: none;
-    font-size: 18px;
-    padding: 4px 10px;
-    color: #297E8E;
-    background-color: #fff;
-    font-weight: 700;
-    margin-top: 3vw;
-    font-family: 'Montserrat', sans-serif !important;
-}
-
-.GoBackBtn{
-    
-    width: 200px;
-    border: 4px solid #297E8E;
-    font-size: 18px;
-    padding: 4px 10px;
-    color: #000;
-    background-color: #fff;
-    font-weight: 700;
-    margin: 2vw 0;
-    font-family: 'Montserrat', sans-serif !important;
+.OrderDetailBtn {
+  width: 200px;
+  border: none;
+  font-size: 18px;
+  padding: 4px 10px;
+  color: #f39c12;
+  background-color: #fff;
+  font-weight: 700;
+  margin-top: 3vw;
+  font-family: "Montserrat", sans-serif !important;
 }
 
-.ReasonDiv{
-    padding: 5px 0;
+.GoBackBtn {
+  width: 200px;
+  border: 4px solid #f39c12;
+  font-size: 18px;
+  padding: 4px 10px;
+  color: #000;
+  background-color: #fff;
+  font-weight: 700;
+  margin: 2vw 0;
+  font-family: "Montserrat", sans-serif !important;
 }
 
-.ReasonHd{
-    font-size: 18px;
-    font-weight: 700;
-    color: #297E8E;
+.ReasonDiv {
+  padding: 5px 0;
+}
+
+.ReasonHd {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f39c12;
 }
 
 label > input[type="radio"] {
-    display: none;
-  }
-
-  label > input[type="radio"] + *::before {
-    content: "";
-    display: inline-block;
-    vertical-align: bottom;
-    width: 1rem;
-    height: 1rem;
-    margin-right: 1rem;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 0.1rem;
-    border-color: #dd412d;
-    margin: 3px 8px;
-  }
-
-  label > input[type="radio"]:checked + *::before {
-    background: radial-gradient(#dd412d 0%, #dd412d 40%, transparent 50%, transparent);
-    border-color: #dd412d;
-  }
-  label > input[type="radio"]:checked + * {
-    color: #000;
-  }
-
-.CancelForm{
-    margin: 8px 0;
-    font-family: 'Open Sans', sans-serif !important;
-    line-height: 1.5;
-    align-items: baseline;
+  display: none;
 }
 
-.CancelOrderBtn{
-    position: relative;
-    margin-right: 5vw;
-    margin-bottom: 40px;
-    float: right;
-    width: 200px;
-    padding: 4px 10px;
-    background-color: #dd412d;
-    color: #fff;
-    border: 4px solid #dd412d;
-    font-size: 16px;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif !important;
-
+label > input[type="radio"] + *::before {
+  content: "";
+  display: inline-block;
+  vertical-align: bottom;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #e67e22;
+  margin: 3px 8px;
 }
 
-.CancelOrderBtn:hover{
-  box-shadow: -4px 4px 16px -5px rgba(221,65,45,1);
-  -webkit-box-shadow: -4px 4px 16px -5px rgba(221,65,45,1);
-  -moz-box-shadow: -4px 4px 16px -5px rgba(221,65,45,1);
-
+label > input[type="radio"]:checked + *::before {
+  background: radial-gradient(
+    #e67e22 0%,
+    #e67e22 40%,
+    transparent 50%,
+    transparent
+  );
+  border-color: #e67e22;
+}
+label > input[type="radio"]:checked + * {
+  color: #000;
 }
 
-@media only screen and (max-width: 945px){
-  .OrderedProduct{
+.CancelForm {
+  margin: 8px 0;
+  font-family: "Open Sans", sans-serif !important;
+  line-height: 1.5;
+  align-items: baseline;
+}
+
+.CancelOrderBtn {
+  position: relative;
+  margin-right: 5vw;
+  margin-bottom: 40px;
+  float: right;
+  width: 200px;
+  padding: 4px 10px;
+  background-color: #e67e22;
+  color: #fff;
+  border: 4px solid #e67e22;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.CancelOrderBtn:hover {
+  box-shadow: -4px 4px 16px -5px rgba(221, 65, 45, 1);
+  -webkit-box-shadow: -4px 4px 16px -5px rgba(221, 65, 45, 1);
+  -moz-box-shadow: -4px 4px 16px -5px rgba(221, 65, 45, 1);
+}
+
+@media only screen and (max-width: 945px) {
+  .OrderedProduct {
     display: block;
     margin: 0;
     padding: 0;
-
   }
 
-  .MyProfile{
+  .MyProfile {
     margin: 0;
     padding: 0;
   }
 }
-

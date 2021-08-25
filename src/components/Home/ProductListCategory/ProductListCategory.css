@@ -39,14 +39,14 @@ svg {
   /* transform: scale(1.2); */
 }
 .colored {
-  color: #297d8e;
+  color: #f39c12;
 }
 .color-r {
   color: red;
 }
 .view {
-  background-color: #297d8e !important;
-  border: 2px solid #297d8e !important;
+  background-color: #e67e22 !important;
+  border: 2px solid #e67e22 !important;
   border-radius: 0 !important;
   color: white !important;
   padding: 4px 10px;
@@ -56,12 +56,12 @@ svg {
   color: gray !important;
 }
 .btn-colored {
-  border: 3px solid #297d8e !important;
+  border: 3px solid #e67e22 !important;
   border-radius: 0 !important;
-  color: #297d8e !important;
+  color: #e67e22 !important;
 }
 .color-b {
-  color: #297d8e !important;
+  color: #e67e22 !important;
 }
 .btn-veiw {
   border: 3px solid red !important;
@@ -103,16 +103,16 @@ svg {
   padding: 8px 16px !important;
   font-size: 18px !important ;
   color: #fff;
-  background-color: #297d8e;
+  background-color: #f39c12;
   font-weight: 500;
   align-items: center;
   height: fit-content;
 }
 
 .viewAllBtn:hover {
-  box-shadow: -4px 4px 16px -5px #297d8e;
-  -webkit-box-shadow: -4px 4px 16px -5px #297d8e;
-  -moz-box-shadow: -4px 4px 16px -5px #297d8e;
+  box-shadow: -4px 4px 16px -5px #f39c12;
+  -webkit-box-shadow: -4px 4px 16px -5px #f39c12;
+  -moz-box-shadow: -4px 4px 16px -5px #f39c12;
 }
 
 .heart {
@@ -156,8 +156,8 @@ svg {
   justify-content: center;
 }
 .btnAdd1 {
-  border: solid 3px #297d8e;
-  background-color: #297d8e;
+  border: solid 3px #f1c40f;
+  background-color: #f1c40f;
   padding: 3px 30px !important;
   width: 13rem;
   color: white;
@@ -170,8 +170,8 @@ svg {
 .buybtn1 {
   width: 13rem;
 
-  border: solid 3px #dd412d !important;
-  background-color: #dd412d !important;
+  border: solid 3px #e67e2e !important;
+  background-color: #e67e2e !important;
   color: white !important;
   font-size: 12px !important;
   font-weight: 400 !important;
@@ -240,8 +240,8 @@ svg {
   margin-left: 10px !important;
 }
 .fa-arrow-circle-right {
-  color: #297d8e !important;
+  color: #e67e22 !important;
 }
 .fa-arrow-circle-left {
-  color: #297d8e !important;
+  color: #e67e22 !important;
 }

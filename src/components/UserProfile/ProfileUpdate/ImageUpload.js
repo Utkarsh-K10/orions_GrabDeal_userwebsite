@@ -44,10 +44,10 @@ const ImageUpload = () => {
               cancelButtonColor: "#ffffff !important",
               okButtonColor: "#ffffff !important",
               success: {
-                svgColor: "#297d8e",
+                svgColor: "#f39c12",
                 titleColor: "#1e1e1e",
                 messageColor: "#242424",
-                buttonBackground: "#297d8e",
+                buttonBackground: "#f39c12",
                 buttonColor: "white",
                 backOverlayColor: "rgba(0,0,0,0)",
               },
@@ -84,7 +84,7 @@ const ImageUpload = () => {
         // loader()
         Notiflix.Loading.hourglass({
           backgroundColor: "rgba(0,0,0,0)",
-          svgColor: "#297d8e",
+          svgColor: "#f39c12",
         })
       ) : (
         <div className="container">

@@ -8,6 +8,7 @@ import { UserContext } from "../../App";
 import axios from "axios";
 import Notiflix from "notiflix";
 import PrimarySearchAppBar from "../Shared/Navbars/TopNavBar2/TopNavBar2";
+import BottomFooter from "../Shared/Footer/BottomFooter";
 
 function BulkQuantityQuotation({ setRedirect }) {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
@@ -586,7 +587,8 @@ function BulkQuantityQuotation({ setRedirect }) {
           </form>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
+      <BottomFooter></BottomFooter>
     </div>
   );
 }

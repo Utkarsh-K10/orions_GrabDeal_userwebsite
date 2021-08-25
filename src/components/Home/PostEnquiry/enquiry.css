@@ -1,31 +1,31 @@
 .outerbox {
-	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1), 10px 5px 10px 5px rgba(0, 0, 0, 0.1);
-	background-color: white;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1),
+    10px 5px 10px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
 
 .color-g label {
-	color: #297d8e !important;
+  color: #e67e22 !important;
 }
 
 .color-g input {
-	outline: none !important;
-	border: #297d8e 1px solid !important;
+  outline: none !important;
+  border: #e67e221px solid !important;
 }
 input {
-	border-radius: 0 !important;
+  border-radius: 0 !important;
 }
 label {
-	font-weight: 500 !important;
+  font-weight: 500 !important;
 }
 strong {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 .color-r {
-	color: #dd4128;
+  color: #dd4128;
 }
 .enquirySuccessHd {
-	color: white;
-
+  color: white;
 }
 
 /* 
@@ -37,4 +37,3 @@ strong {
 	margin: 20px;
 	font-weight: 500;
   } */
-

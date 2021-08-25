@@ -31,7 +31,7 @@ input::-webkit-input-placeholder {
 .EditBtn {
   border: none;
   background-color: #ffffff;
-  color: #297e8e;
+  color: #f39c12;
   font-size: 14px;
   font-weight: 700;
   padding: 0 10px;
@@ -81,11 +81,11 @@ input::-webkit-input-placeholder {
 }
 
 input:checked + .sliderswitch {
-  background-color: #dd412d;
+  background-color: #f1c40f;
 }
 
 input:focus + .sliderswitch {
-  box-shadow: 0 0 1px #dd412d;
+  box-shadow: 0 0 1px #f1c40f;
 }
 
 input:checked + .sliderswitch:before {
@@ -106,7 +106,7 @@ input:checked + .sliderswitch:before {
 .ChangePswdBtn {
   border: none;
   background-color: #ffffff;
-  color: #297e8e;
+  color: #f39c12;
   font-size: 14px;
   font-weight: 700;
   padding: 0 10px;
@@ -177,7 +177,7 @@ input:checked + .sliderswitch:before {
 }
 
 .ImpNote {
-  color: #dd412d;
+  color: #f39c12;
   font-size: 16px;
   font-weight: 500;
 }
@@ -255,7 +255,7 @@ input[type="checkbox"]::before {
 
 .updatebtn {
   color: white !important;
-  background-color: #297e8e;
+  background-color: #f39c12;
 }
 
 .filepond--root {

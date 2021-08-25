@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import { Link, useHistory, useParams } from "react-router-dom";
-import loaderImg from "./../Shared/Navbars/TopNavbar/Assets/Logo-materialBuy.png";
+import loaderImg from "./../Shared/Navbars/TopNavbar/Assets/3dpng.png";
 import axios from "axios";
 import Review from "./Review";
 import ViewProduct from "./ViewProduct";
@@ -464,12 +464,15 @@ function Product({ id }) {
                                 position: "absolute",
 
                                 top: "0px",
+                                // top: "(max-width: 480px) 0px, (max-width: 1200px) 0px, 0px",
 
                                 left: 265,
                               },
                               enlargedImageContainerDimensions: {
                                 width: "300%",
                                 height: "300%",
+                                // sizes:
+                                //   "(max-width: 480px) 10px, (max-width: 1200px) 30px, 360px",
                               },
                             }}
                           />

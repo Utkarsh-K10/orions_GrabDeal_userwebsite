@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import loaderImg from "../Shared/Navbars/TopNavbar/Assets/Logo-materialBuy.png";
+import loaderImg from "../Shared/Navbars/TopNavbar/Assets/3dpng.png";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import TopNavbar from "../Shared/Navbars/TopNavbar/TopNavbar";
@@ -7,6 +7,7 @@ import CategoryNavbar from "../Shared/Navbars/CategoryNavbar/CategoryNavbar";
 import ServiceNavbar from "../Shared/Navbars/ServiceNavbar/ServiceNavbar";
 import Footer from "../Shared/Footer/Footer";
 import PrimarySearchAppBar from "../Shared/Navbars/TopNavBar2/TopNavBar2";
+import BottomFooter from "../Shared/Footer/BottomFooter";
 
 const OurServices = () => {
   const [data, setData] = useState();
@@ -85,7 +86,8 @@ const OurServices = () => {
           <div className="container-fluid">
             <div className="row px-lg-2 py-5">{Professionals()}</div>
           </div>
-          <Footer></Footer>
+          {/* <Footer></Footer> */}
+          <BottomFooter></BottomFooter>
         </div>
       )}
     </>

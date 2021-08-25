@@ -23,13 +23,15 @@ import { RiShutDownLine } from "react-icons/ri";
 import { VscMenu } from "react-icons/vsc";
 import PrivateRoute from "../../Auth/PrivateRoute/PrivateRoute";
 import { useDetectOutsideClick } from "./useDetectOutsideClick";
-import logo from "./Assets/Logo-materialBuy.png";
+import logo from "./Assets/3dpng.png";
+// import logo from "../../Shared/Navbars/TopNavbar/Assets/Modal Images/3dpng.png";
 import { CgSidebarOpen } from "react-icons/cg";
 import { HiUserCircle } from "react-icons/hi";
 import PrimarySearchAppBar from "../../Shared/Navbars/TopNavBar2/TopNavBar2";
 
 import axios from "axios";
 import { Avatar } from "@material-ui/core";
+import BottomFooter from "../../Shared/Footer/BottomFooter";
 
 const UserProfile = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
@@ -351,7 +353,8 @@ const UserProfile = () => {
           </Switch>
         </div>
       </div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
+      <BottomFooter></BottomFooter>
     </div>
   );
 };

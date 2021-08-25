@@ -1,101 +1,103 @@
 .step-1 {
-	background-color: #297d8e;
+  background-color: #f39c12;
 }
 .step-2 {
-	background-color: #297d8e;
+  background-color: #f39c12;
 }
 .step-3 {
-	background-color: #297d8e;
+  background-color: #f39c12;
 }
 
 .checkout-tab {
-	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1), 10px 5px 10px 5px rgba(0, 0, 0, 0.1);
-	background-color: white;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1),
+    10px 5px 10px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
 
 button {
-	-webkit-appearance: unset;
+  -webkit-appearance: unset;
 }
 .form {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 #card-number {
-	width: 18vw;
+  width: 18vw;
 }
 .card-form form {
-	justify-content: center;
+  justify-content: center;
 }
 
 .payment-gateway-select {
-	border: rgb(182, 179, 179) 1px solid;
-	margin-top: 0;
+  border: rgb(182, 179, 179) 1px solid;
+  margin-top: 0;
 }
 label {
-	color: black !important;
+  color: black !important;
 }
 
 .checkout-amt {
-	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1), 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
-	align-self: flex-start;
-	background-color: white;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1),
+    10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  align-self: flex-start;
+  background-color: white;
 }
 
 .upper {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .colord {
-	color: #297d8e;
+  color: #f39c12;
 }
 
 .color-g {
-	color: green;
+  color: green;
 }
 
 .trustImages {
-	justify-content: space-around;
+  justify-content: space-around;
 }
 
 .head {
-	color: white;
+  color: white;
 }
 
 h3 {
-	font-weight: 200;
+  font-weight: 200;
 }
 
 .login-btn {
-	color: white;
-	background-color: #297d8e;
+  color: white;
+  background-color: #f39c12;
 }
 #email {
-	border: none;
-	border-bottom: #297d8e solid 2px;
+  border: none;
+  border-bottom: #e67e22solid 2px;
 }
 .inactive {
-	background-color: gray;
+  background-color: gray;
 }
 
 .color-r {
-	color: red !important;
+  color: red !important;
 }
 
 .netbanking-form {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.color-gray{
-	color: gray !important;
-}
-
-.card{
-	background-color: white;
+.color-gray {
+  color: gray !important;
 }
 
-.login-complete{
-	color: #fff;
-	font-size: 36px;
+.card {
+  background-color: white;
+}
+
+.login-complete {
+  color: #fff;
+  font-size: 36px;
 }

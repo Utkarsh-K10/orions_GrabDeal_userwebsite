@@ -106,10 +106,10 @@ function ProductList({ title, email, userid, cart }) {
               cancelButtonColor: "#ffffff !important",
               okButtonColor: "#ffffff !important",
               success: {
-                svgColor: "#297d8e",
+                svgColor: "#f39c12",
                 titleColor: "#1e1e1e",
                 messageColor: "#242424",
-                buttonBackground: "#297d8e",
+                buttonBackground: "#f39c12",
                 buttonColor: "white",
                 backOverlayColor: "rgba(0,0,0,0)",
               },
@@ -294,7 +294,9 @@ function ProductList({ title, email, userid, cart }) {
         numberOfCards={cards}
         slidesToScroll={cards}
         gutter={20}
-        leftChevron={<i class="fas fa-arrow-circle-left leftarr fa-2x"></i>}
+        leftChevron={
+          <i class="fas fa-arrow-circle-left leftarr fa-2x colored"></i>
+        }
         rightChevron={<i class="fas fa-arrow-circle-right rightarr fa-2x"></i>}
         chevronWidth={chevronWidth}
       >

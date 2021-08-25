@@ -1,5 +1,5 @@
 .cart-header {
-  background-color: #297e8e !important;
+  background-color: #f39c12 !important;
   color: #fff;
   font-weight: 500;
   font-size: 1.5rem;
@@ -42,6 +42,6 @@
   }
 }
 .removebtn__color {
-  background-color: #297e8e !important;
-  border-color: #297e8e !important;
+  background-color: #f39c12 !important;
+  border-color: #f39c12 !important;
 }

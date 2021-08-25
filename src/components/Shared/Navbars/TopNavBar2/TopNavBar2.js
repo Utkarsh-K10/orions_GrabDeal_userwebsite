@@ -20,17 +20,18 @@ import _ from "lodash";
 import { Search, Segment } from "semantic-ui-react";
 import offer from "../TopNavbar/Assets/offer icon.png";
 import Modal from "../../ModalBackground/Modal";
-
+import "./TopNavbar.css";
 import User from "../TopNavbar/Assets/Modal Images/User.svg";
 import Corporate from "./Assets/Modal Images/corp.svg";
 import Vendor from "./Assets/Modal Images/Forma 1.svg";
-import logo from "../TopNavbar/Assets/Logo-materialBuy.png";
-
+import logo from "../TopNavbar/Assets/3dpng.png";
+import PersonIcon from "@material-ui/icons/Person";
 import { Header, Button, Popup, Grid } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import { UserContext } from "../../../../App";
 import { Avatar } from "@material-ui/core";
 
+import LocalOfferIcon from "@material-ui/icons/LocalOffer";
 const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
@@ -212,11 +213,6 @@ function SearchExampleStandard() {
           onResultSelect={(e, data) => {
             setPid();
             searchhandler(data.result.id, data.result.type);
-            // dispatch({
-            //   type: "UPDATE_SELECTION",
-            //   selection: data.result.title,
-            //   // selection2: data.result.id,
-            // });
           }}
           onSearchChange={handleSearchChange}
           results={results}
@@ -362,7 +358,7 @@ export default function PrimarySearchAppBar() {
         </IconButton> */}
 
         <Link to="/postEnquiry">
-          <p>Post your enquiry</p>
+          <p className="postenq__topnavbar">Post your enquiry</p>
         </Link>
       </MenuItem>
 
@@ -403,10 +399,11 @@ export default function PrimarySearchAppBar() {
   );
 
   return (
-    <div className={classes.grow}>
+    <div className={`${classes.grow}  `}>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar className="topnavbar__back">
           <Link to="/">
+            {/* <img className="Logo " src={logo} alt="logo" /> */}
             <img className="Logo " src={logo} alt="logo" />
           </Link>
 
@@ -443,7 +440,10 @@ export default function PrimarySearchAppBar() {
               {/* <NotificationsIcon /> */}
 
               <Link to="/productsall">
-                <img src={offer} alt="offer-icon" width="35" height="35" />
+                <LocalOfferIcon
+                  style={{ fontSize: "30px", color: "#e67e22" }}
+                ></LocalOfferIcon>
+                {/* <img src={offer} alt="offer-icon" width="35" height="35" /> */}
               </Link>
               {/* </Badge> */}
             </IconButton>
@@ -458,9 +458,13 @@ export default function PrimarySearchAppBar() {
               {loggedInUser.username ? (
                 <Popup
                   trigger={
-                    <Button className="LoggedInuser">
-                      <i class="far fa-user"></i>
-                    </Button>
+                    <PersonIcon
+                      style={{ fontSize: "40px", color: "#e67e22" }}
+                    />
+                    // <Button className="LoggedInuser">
+
+                    //   {/* <i class="far fa-user"></i> */}
+                    // </Button>
                   }
                   flowing
                   hoverable
@@ -550,9 +554,10 @@ export default function PrimarySearchAppBar() {
             {loggedInUser.username ? (
               <Popup
                 trigger={
-                  <Button className="LoggedInuser">
-                    <i class="far fa-user"></i>
-                  </Button>
+                  <PersonIcon style={{ fontSize: "40px", color: "#e67e22" }} />
+                  // <Button className="LoggedInuser">
+                  //   <i class="far fa-user"></i>
+                  // </Button>
                 }
                 flowing
                 hoverable

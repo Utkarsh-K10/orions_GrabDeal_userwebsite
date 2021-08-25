@@ -7,13 +7,14 @@ import TopNavbar from "../Shared/Navbars/TopNavbar/TopNavbar";
 import CategoryNavbar from "../Shared/Navbars/CategoryNavbar/CategoryNavbar";
 import ServiceNavbar from "../Shared/Navbars/ServiceNavbar/ServiceNavbar";
 import Footer from "../Shared/Footer/Footer";
-import logo from "../Shared/Navbars/TopNavbar/Assets/Logo-materialBuy.png";
+import logo from "../Shared/Navbars/TopNavbar/Assets/3dpng.png";
 import { useHistory, useParams } from "react-router-dom";
 import { FiCheckCircle } from "react-icons/fi";
 import { UserContext } from "../../App";
 import AddressForm from "../UserProfile/ManageAddress/AddressForm";
 import DeliveryAddressForm from "./DeliveryAddressForm";
 import PrimarySearchAppBar from "../Shared/Navbars/TopNavBar2/TopNavBar2";
+import BottomFooter from "../Shared/Footer/BottomFooter";
 
 function loadScript(src) {
   return new Promise((resolve) => {
@@ -582,7 +583,8 @@ function Payment({ name, setRedirect }) {
             </div>
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
+        <BottomFooter></BottomFooter>
       </div>
     );
   };

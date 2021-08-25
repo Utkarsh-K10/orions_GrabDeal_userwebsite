@@ -23,7 +23,7 @@ function BottomFooter() {
                   </li>
                   <li className="m-1">
                     <a href="" title="">
-                      Sell on Material Buy
+                      Sell on Grabthedeal
                     </a>
                   </li>
                   <li className="m-1">
@@ -142,7 +142,7 @@ function BottomFooter() {
             <div class="row">
               <div class="col-sm-12 footer__content">
                 <p className="text-center footer_copy">
-                  © 2021 Material Buy. All Rights Reserved.
+                  © 2021 Grab the deal. All Rights Reserved.
                 </p>
                 <p className="footer_madeby">
                   Made with &#10084;&#65039; at Orions IT Solutions

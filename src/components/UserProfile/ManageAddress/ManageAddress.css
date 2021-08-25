@@ -3,7 +3,7 @@
 }
 
 .EditAdd {
-  /* background-color: #297E8E; */
+  background-color: #f39c12;
   color: #ffffff;
   padding: 1.5vw 1vw;
   width: 100%;
@@ -14,7 +14,7 @@
 
 .EditAddBtn {
   align-items: center;
-  background-color: #297e8e;
+  background-color: #f39c12;
   color: #ffffff;
   font-size: 20px;
   font-weight: 600;
@@ -63,13 +63,13 @@
 }
 
 .Username {
-  color: #dd412d;
+  color: #f39c12;
   font-size: 16px;
   font-weight: 700;
 }
 
 .No {
-  color: #297e8e;
+  color: #f39c12;
   padding: 3px 0;
   font-weight: 500;
 }
@@ -78,7 +78,7 @@
   position: relative;
   justify-content: flex-end;
   background-color: #ffffff;
-  color: #297e8e;
+  color: #f39c12;
   border: none;
 }
 
@@ -118,9 +118,9 @@
   float: right;
   width: 200px;
   padding: 4px 10px;
-  background-color: #dd412d;
+  background-color: #f39c12;
   color: #fff;
-  border: 4px solid #dd412d;
+  border: 4px solid #f39c12;
   font-size: 16px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif !important;
@@ -168,10 +168,10 @@
   color: #212121;
 }
 .nx-confirm-button-ok {
-  background-color: #297e8e !important;
+  background-color: #f39c12 !important;
 }
 .notiflix-confirm-head > h5 {
-  color: #297e8e !important;
+  color: #f39c12 !important;
 }
 
 .manageAddress__name {

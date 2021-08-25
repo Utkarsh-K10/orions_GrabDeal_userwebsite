@@ -3,7 +3,7 @@
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
   padding: 1px 0;
-  background-color: #dd412d;
+  background-color: #e67e22;
   color: #ffffff !important;
 }
 
@@ -23,7 +23,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  background-color: #297e8e;
+  background-color: #e67e2e;
 }
 
 .menuList {
@@ -48,15 +48,16 @@
 .HamburgerBtn {
   /* padding: 5px; */
   /* border: 2px solid #ffffff; */
-  background-color: #297e8e;
+  background-color: #e67e2e;
   font-size: 30px;
 
-  color: #bdbdbd;
+  color: white;
   margin: 8px;
   margin-left: 20px;
 }
 .HamburgerBtn:hover {
-  background-color: #205f6b;
+  background-color: #e67e2e;
+  opacity: 50%;
   border-radius: 5px !important;
 }
 /* @media only screen and (min-width: 1800px){

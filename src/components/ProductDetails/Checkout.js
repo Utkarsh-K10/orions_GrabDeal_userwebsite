@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import loaderImg from "./../Shared/Navbars/TopNavbar/Assets/Logo-materialBuy.png";
+import loaderImg from "./../Shared/Navbars/TopNavbar/Assets/3dpng.png";
 import { Link, useParams } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import Footer from "../Shared/Footer/Footer";
@@ -9,6 +9,7 @@ import ServiceNavbar from "../Shared/Navbars/ServiceNavbar/ServiceNavbar";
 import TopNavbar from "../Shared/Navbars/TopNavbar/TopNavbar";
 import UserContext from "../../App";
 import PrimarySearchAppBar from "../Shared/Navbars/TopNavBar2/TopNavBar2";
+import BottomFooter from "../Shared/Footer/BottomFooter";
 function Checkout({ userId }) {
   const [loading, setLoading] = useState(true);
   const { id, qty } = useParams();
@@ -249,7 +250,8 @@ function Checkout({ userId }) {
         ) : (
           <p>Loading ... </p>
         )}
-        <Footer />
+        {/* <Footer /> */}
+        <BottomFooter></BottomFooter>
         <div class="modal" id="CouponsModal">
           <div class="modal-dialog modal-lg">
             <div class="modal-content">
