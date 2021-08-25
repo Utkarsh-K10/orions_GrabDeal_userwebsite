@@ -1,0 +1,97 @@
+.Navbargrid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 1px 0;
+  background-color: #dd412d;
+  color: #ffffff !important;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+.Navbargrid-container > div {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.menuList-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #297e8e;
+}
+
+.menuList {
+  border-radius: 8px;
+  position: absolute;
+  z-index: 100;
+  top: 60px;
+  width: 100%;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+.menuList.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.HamburgerBtn {
+  /* padding: 5px; */
+  /* border: 2px solid #ffffff; */
+  background-color: #297e8e;
+  font-size: 30px;
+
+  color: #bdbdbd;
+  margin: 8px;
+  margin-left: 20px;
+}
+.HamburgerBtn:hover {
+  background-color: #205f6b;
+  border-radius: 5px !important;
+}
+/* @media only screen and (min-width: 1800px){
+    .Navbargrid-container{
+      padding: 15px 7vw;
+    }
+  }
+
+  @media only screen and (min-width: 2000px){
+    
+    .Navbargrid-container{
+      padding: 15px 10vw;
+    }
+  }
+
+  @media only screen and (min-width: 2400px){
+   
+    .Navbargrid-container{
+      padding: 15px 14vw;
+    }
+  }
+
+  @media only screen and (min-width: 2600px){
+   
+    .Navbargrid-container{
+      padding: 15px 17vw;
+    }
+  } */
+
+@media only screen and (max-width: 800px) {
+  .Navbargrid-container {
+    grid-template-columns: auto;
+  }
+
+  .menuList-container {
+    justify-content: left;
+  }
+}

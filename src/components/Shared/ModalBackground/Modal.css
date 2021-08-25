@@ -1,0 +1,40 @@
+.PortalModalBg{
+    position: fixed;
+    height: 90vh;
+    width: 85vw;
+    background-image: url(./Assets/ModalBgImg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.ModalBackground{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 500;
+}
+
+.CloseBtn{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #dd412d;
+    border: none;
+    font-size: 30px;
+    font-weight: 800;
+    top:0;
+    left: 0;
+
+  }

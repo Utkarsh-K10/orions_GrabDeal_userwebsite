@@ -1,0 +1,190 @@
+.cart__left {
+  height: 100vh;
+  flex: 0.7;
+  padding: 20px;
+  margin-left: 30px !important;
+}
+.cart__products {
+  /* background-color: red; */
+  overflow: scroll;
+  height: 70vh;
+  min-height: 70vh;
+  overflow-x: hidden;
+}
+.cart__right {
+  /* background-color: pink; */
+  flex: 0.3;
+  height: 100vh;
+
+  padding: 20px;
+  margin-left: 5px !important;
+}
+.cart__container {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  /* padding: 20px; */
+}
+.cart__containerHeading {
+  padding: 10px !important;
+}
+
+.cart__heading {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.05);
+  align-items: center;
+  padding: 10px;
+}
+.cart__headingtxt {
+  font-size: 16px !important;
+  font: 600;
+  margin: 0;
+}
+
+.cart__product {
+  display: flex;
+  /* justify-content: space-between !important; */
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cart__productLeft {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+}
+.cart__productMid {
+  display: flex;
+  flex-direction: column;
+  /* align-self: center; */
+  /* justify-content: center; */
+  flex: 0.5;
+}
+.cart__productRight {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  max-width: 264px !important;
+}
+.cart__productLeftContent {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.cart__productLeftImage {
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
+}
+.cart__productLeftFeature {
+  margin: 0 !important;
+  font-size: 12px;
+}
+.cart__productqty {
+  border: 1px solid gray;
+  display: flex;
+  width: fit-content;
+  justify-content: center !important;
+  padding: 3px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cart__productqtybtn {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btnleftadd {
+  border-right: 1px solid black;
+}
+.btnleftsub {
+  border-left: 1px solid black;
+}
+.cart__productqtynum {
+  margin: 0 !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cart__productPriceContainer {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 15px;
+}
+
+.cart__productPrice {
+  margin: 0 !important;
+  font-size: 13px;
+  font-weight: 500;
+}
+.cart__productsFooter {
+  display: flex;
+  justify-content: space-between;
+}
+.continueShoppingbtn {
+  background-color: #297e8e !important;
+  border-color: rgba(0, 0, 0, 0.01) !important;
+  border-radius: 1px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+}
+
+.continueShoppingbtn:hover {
+  cursor: pointer !important;
+  box-shadow: 1px 4px 11px -3px rgba(0, 0, 0, 0.66) !important;
+  -webkit-box-shadow: 1px 4px 11px -3px rgba(0, 0, 0, 0.66) !important;
+  -moz-box-shadow: 1px 4px 11px -3px rgba(0, 0, 0, 0.66) !important;
+}
+
+.cart__rightTop {
+  flex: 0.2;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  border: 1px solid #e8e8e8;
+}
+.cart__rightBottom {
+  flex: 0.8;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  border: 1px solid #e8e8e8;
+}
+.cart__rightheading {
+  font-family: "Open Sans Semibold";
+  font-size: 16px;
+  color: #fff;
+  line-height: 40px;
+  height: 44px;
+  padding: 0 14px;
+  margin: 0;
+  background: #4d4d4d;
+  border-bottom: 1px solid #e8e8e8;
+}
+.cart__rightTopContent {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.cart__rightTopFooter {
+  font-size: 10.5px !important;
+  color: #888;
+  padding: 10px;
+}
+
+.cart__rightTopContent {
+  min-height: 200px;
+}
+.cart__productPrice1 {
+  font-size: 16px !important;
+}
+.cart__productPriceTotal {
+  font-size: 22px;
+  margin-top: 12px;
+  font-weight: 500;
+}

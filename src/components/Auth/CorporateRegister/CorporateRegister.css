@@ -1,0 +1,326 @@
+
+.userLogin-container{
+    display: grid;
+    grid-template-columns: 800px 1fr;
+    justify-items: center;
+    /* align-items: center; */
+}
+.userLogin-fields{
+    background-color: #ffff;
+    width: 80%;
+    text-align: center;
+}
+.userLogin-bg{
+    width: 800px;
+    height: 969px;
+}
+.userLogin-bg img{
+    width: 100%;
+    height: 100%;
+}
+.userLogin-text{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.userLogin-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.userLogin-text p{
+    font-size: 1.3rem;
+}
+.login-input {
+    border: none !important;
+    border-bottom: 2px solid #CCCACA!important;
+    width: 55%!important; 
+    display: inline!important;
+}
+::placeholder{
+    font-size: 1.2rem;
+}
+.form-group{
+    position: relative;
+    margin: 35px 0;
+}
+.user-icon{
+    position: absolute;
+    top: -15px;
+    left: 150px;
+    font-size: 3rem;
+    color: #DD4128;
+}
+.form-control:focus{
+    outline: none!important;
+   box-shadow: none!important;
+}
+.invalid-feedback{
+    font-size: 100%!important;
+}
+.userLoginBtn{
+    width: 555px;
+    font-size: 1.5rem;
+    padding: 8px 0px;
+    font-weight: 500;
+}
+
+.loginBtn:hover{
+    box-shadow: -4px 4px 16px -5px rgba(221,65,45,1);
+    -webkit-box-shadow: -4px 4px 16px -5px rgba(221,65,45,1);
+    -moz-box-shadow: -4px 4px 16px -5px rgba(221,65,45,1);
+  
+}
+.loginBtn{
+    margin-top: 100px;
+    background-color: #DD4128;
+    color: #ffff;
+    border: none;
+   
+}
+.googleBtn{
+    background-color: #fff;
+    border: 1px solid #000;  
+}
+
+.googleBtn:hover{
+    box-shadow: -4px 4px 16px -5px #000 ;
+    -webkit-box-shadow: -4px 4px 16px -5px #000;
+    -moz-box-shadow: -4px 4px 16px -5px #000;
+  
+}
+.reqOtpBtn{
+    background-color: #fff;
+    border: 2px solid #297E8E;
+    color: #297E8E;
+}
+
+.reqOtpBtn:hover{
+    background-color: #297E8E;
+    color: #fff;
+}
+.userLogin-break{
+    color: #828181;
+    margin: 20px ;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* userlogin success design */
+
+.loginSuccesPage{
+    background-image: url(assets/ModalBgImg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.userLoginSuccess-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.userLoginSuccess-container h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.userLoginSuccess-container div button{
+    background-color: #297E8E;
+    color: white;
+    font-size: 20px;
+    padding: 6px 20px;
+    margin: 20px;
+    font-weight: 500;
+}
+.signup-link{
+    color: #297E8E;
+    font-size: 1.5rem;
+    margin: 40px 0;
+    font-weight: 500;
+}
+.corpoPassCheck {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    width: 60%;
+    margin: auto;
+}
+
+/* @media only screen and (min-width:1700px){
+    .LoginSuccessHd{
+        font-size: 70px;
+        font-weight: 900;
+    }
+
+    .userLogin-container div button{
+        font-size: 27px;
+        padding: 12px 30px;
+        margin: 30px;
+    }
+}
+
+@media only screen and (max-width:915px){
+    .userLogin-container div button{
+        width: 80px !important;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .userLogin-container h1{
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .userLogin-container div button{
+        font-size: 16px;
+    }
+} */
+
+/* .userLoginSuccess-container{
+    background-image: url(./assets/loginbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+@media only screen and (min-width:1921px){
+    .userLogin-bg{
+        width: 800px;
+        height: 100%;
+    }  
+}
+@media only screen and (max-width:1889px){
+    .user-icon{
+        left: 130px;
+    }
+}
+@media only screen and (max-width:1807px){
+    .user-icon{
+        left: 100px;
+    }
+}
+@media only screen and (max-width:1721px){
+    .user-icon{
+        left: 100px;
+    }
+    .userLogin-container{     
+        grid-template-columns: 700px 1fr; 
+    }
+    .userLogin-bg{
+        width: 700px;
+    }
+    .userLoginBtn{
+        width: 500px;
+    }
+}
+@media only screen and (max-width:1630px){
+    .user-icon{
+        left: 80px;
+    }
+    .userLoginBtn{
+        width: 450px;
+    }
+}
+@media only screen and (max-width:1490px){
+    .user-icon{
+        left: 80px;
+    }
+    .userLoginBtn{
+        width: 400px;
+    }
+    .userLogin-container{     
+        grid-template-columns: 600px 1fr; 
+    }
+    .userLogin-bg{
+        width: 600px;
+    }
+}
+@media only screen and (max-width:1330px){
+    .userLogin-container{     
+        grid-template-columns: 500px 1fr; 
+    }
+    .userLogin-bg{
+        width: 500px;
+    }
+}
+@media only screen and (max-width:1230px){
+    .userLogin-container{     
+        grid-template-columns: 400px 1fr; 
+    }
+    .userLogin-bg{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:1130px){
+    .user-icon{
+        left: 60px;
+    }
+    .userLoginBtn{
+        width: 350px;
+    }
+}
+@media only screen and (max-width:980px){
+    .user-icon{
+        left: 40px;
+    }
+    .userLoginBtn{
+        width: 320px;
+    }
+}
+@media only screen and (max-width:910px){
+    .user-icon{
+        left: 30px;
+    }
+    .userLoginBtn{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:854px){
+    .userLogin-container{     
+        grid-template-columns: 330px 1fr; 
+    }
+    .userLogin-bg{
+        width: 330px;
+    }
+}
+@media only screen and (max-width:769px){
+    .userLogin-container{     
+        grid-template-columns: 0px 1fr; 
+    }
+    .userLogin-bg{
+        width: 0px;
+    }
+    .user-icon{
+        left: 80px;
+    }
+    
+}
+@media only screen and (max-width:693px){
+    
+    .user-icon{
+        left: 60px;
+    }
+    
+}
+@media only screen and (max-width:600px){  
+    .user-icon{
+        left: 40px;
+    }   
+}
+@media only screen and (max-width:500px){  
+    .user-icon{
+        left: 30px;
+    }   
+}

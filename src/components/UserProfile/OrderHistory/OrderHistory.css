@@ -1,0 +1,137 @@
+.OrderHistoryHd {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.Ordercard {
+  width: 100%;
+}
+
+.OrderHistoryCards {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  box-shadow: 4px 2px 4px 2px rgba(0, 0, 0, 0.1), 1px 0 1px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.DeliveryStatus {
+  width: 100%;
+  padding: 20px 50px;
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: #297e8e;
+  color: #fff !important;
+  align-items: center;
+}
+
+.DeliveryPro {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.OrderDate {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.OrderedProduct {
+  display: inline-flex;
+  padding: 20px;
+  margin: 0 30px;
+}
+
+.OrderRow {
+  padding: 20px 40px;
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+
+.Caption {
+  font-size: 16px;
+  font-weight: 600;
+  color: #297e8e;
+  padding-bottom: 10px;
+}
+
+.ProductInfo {
+  text-align: center;
+}
+
+.Pro_Price {
+  font-weight: 600;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.Shipping {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ShippingAdd {
+  font-size: 16px;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.Track {
+  width: 200px;
+  padding: 4px 10px;
+  border: 4px solid #297e8e;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.Cancel {
+  width: 200px;
+  padding: 4px 10px;
+  border: 4px solid #dd412d;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.Invoice {
+  width: 200px;
+  padding: 4px 10px;
+  border: 4px solid #297e8e;
+  background-color: #297e8e;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.DeliveredPro {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff !important;
+}
+
+.CancelledPro {
+  font-size: 18px;
+  font-weight: 700;
+  color: red;
+}
+
+.CancelledBtn {
+  width: 200px;
+  padding: 4px 10px;
+  border: 4px solid #00000029;
+  background-color: #00000029;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0;
+  font-family: "Montserrat", sans-serif !important;
+}

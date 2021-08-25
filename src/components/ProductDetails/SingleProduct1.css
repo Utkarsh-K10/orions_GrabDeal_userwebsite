@@ -1,0 +1,519 @@
+.singleproduct__containerheart {
+  position: relative;
+}
+.producttab {
+  align-items: center;
+  background-color: #ffffff;
+  /* height: 710px; */
+  /* height: 710px; */
+  /* min-height: fit-content; */
+  /* box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1),
+    10px 5px 10px 5px rgba(0, 0, 0, 0.1); */
+  box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45) !important;
+  -webkit-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45) !important;
+  -moz-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45) !important;
+}
+.producttab2 {
+  align-items: center;
+  background-color: #ffffff;
+  height: min-content;
+  width: 88%;
+  box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+}
+.product__verticalline {
+  height: 545px !important;
+}
+
+.spectab {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1),
+    10px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pricetab {
+  background-color: #ffffff;
+  margin-left: 20px !important;
+  /* margin-right: 20px !important; */
+  /* height: 240px; */
+  height: fit-content;
+
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1),
+    10px 3px 10px 3px rgba(0, 0, 0, 0.1);
+}
+.graph {
+  margin-top: 0 !important;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1),
+    10px 3px 10px 3px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  height: 295px;
+}
+.singleproductbtns {
+  margin-top: 0 !important;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1),
+    10px 3px 10px 3px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  height: fit-content;
+  padding: 7px;
+}
+.loopimage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.heart {
+  align-items: flex-start !important;
+}
+.nextImg,
+.prevImg {
+  align-self: center;
+  color: #297d8e;
+}
+.btnAdd {
+  border: solid 3px #297d8e;
+  background-color: #297d8e;
+  padding: 6px 10px !important;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.btnAdd:hover {
+  box-shadow: -4px 4px 16px -5px #297d8e;
+  -webkit-box-shadow: -4px 4px 16px -5px #297d8e;
+  -moz-box-shadow: -4px 4px 16px -5px #297d8e;
+}
+
+.checkbtn {
+  color: #297d8e !important;
+}
+
+.location {
+  color: #297d8e;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.list li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #297d8e; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.mytextdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dividercategory {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #9f9f9f;
+}
+
+.colord {
+  color: #297d8e !important;
+}
+
+.recomd {
+  border: solid gray 5px;
+  border-radius: 50%;
+  /* display: inline; */
+  padding: 4em;
+  align-self: center;
+  color: #297d8e;
+  font-weight: 700;
+}
+
+.coupon {
+  margin-top: 7px;
+  border: 2px white dashed;
+}
+.discounts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #297d8e;
+  width: 100%;
+  height: 80px;
+  color: white;
+  align-items: center;
+}
+.statusinfo {
+  color: red !important;
+}
+
+.imageprod:hover {
+  padding: 0.6rem;
+  border: solid 3px #0eae08;
+}
+
+.imageprod {
+  height: 80px;
+  width: 80px;
+}
+
+.main-image {
+  height: 250px !important ;
+  width: 200px !important;
+}
+
+button {
+  border: none;
+  background-color: white;
+}
+.heart,
+.pricing {
+  color: red;
+}
+.buybtn {
+  border: solid 3px #dd412d !important;
+  background-color: #dd412d !important;
+  color: white !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  padding: 6px 10px !important;
+}
+
+.buybtn:hover {
+  box-shadow: -4px 4px 16px -5px rgba(221, 65, 45, 1);
+  -webkit-box-shadow: -4px 4px 16px -5px rgba(221, 65, 45, 1);
+  -moz-box-shadow: -4px 4px 16px -5px rgba(221, 65, 45, 1);
+}
+.bordered {
+  /* padding: 7px; */
+  border: 2px solid gray !important;
+}
+
+.pro_name {
+  color: #444;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 16px;
+}
+
+.productPageSliderDiv {
+  width: 100%;
+  align-items: center;
+  text-align: center !important;
+  align-content: center !important;
+  justify-content: space-around !important;
+}
+
+.productPageSliderHd {
+  margin: 20px 0 !important ;
+  font-size: 30px !important;
+}
+
+.SingleProductPage {
+  background-color: #f1f3f6;
+  padding: 40px;
+  padding-top: 10px !important;
+}
+
+.compareBtn:hover {
+  background-color: #297d8e;
+  color: #ffffff !important;
+}
+
+.viewBtn:hover {
+  background-color: red;
+  color: #ffffff !important;
+  bottom: 0;
+}
+
+.productCheckLabel {
+  color: #297d8e !important;
+  font-weight: 700;
+}
+
+.ViewMoreSpecs {
+  font-weight: 700 !important;
+}
+
+.productFeatList {
+  list-style-type: symbols(•) !important;
+  color: #8c8a8a !important;
+  /* color: red !important; */
+  font-size: 12px !important;
+  padding-left: 10px !important;
+  line-height: 20px !important;
+  /* width: 340px !important; */
+}
+
+.pro_name {
+  font-weight: 700;
+}
+
+.status {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.statusNeedHelp {
+  margin: 0;
+  /* text-align: right; */
+  margin-top: 10px;
+  font-size: 12px;
+  padding: 0 !important;
+  font-weight: 500;
+}
+
+.CheckoutHd {
+  font-weight: 800 !important;
+}
+
+.selectQuantity {
+  /* padding: 10px !important;
+      height: 40px !important;
+      width: 40px !important; */
+  align-items: center !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.loader {
+  padding-top: 25vh;
+  animation: loaderZoom 5s infinite;
+}
+
+@keyframes loaderZoom {
+  0% {
+    transform: scale(0.5);
+  }
+  25% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  75% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+.rembtn {
+  background-color: red;
+  border: none;
+}
+.pricetab__resp {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.discount__text {
+  font-size: 14px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .discounts {
+    max-height: 100px !important;
+  }
+  .discount__text {
+    font-size: 10px;
+    width: 160%;
+  }
+
+  .coupon__text {
+    font-size: 10px;
+  }
+}
+
+.iiz__img {
+  object-fit: contain !important;
+  height: 236px !important;
+}
+.loopimage {
+  margin-bottom: 0 !important;
+}
+
+.product__container {
+  width: 88% !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin: auto !important;
+  /* height: 100%; */
+}
+.productbreadcrums {
+  font-size: 11px !important;
+}
+.viewdiscount__product {
+  font-size: 12px !important;
+}
+
+@media only screen and (max-width: 1114px) {
+  .singleproduct__container {
+    flex-direction: column !important;
+  }
+  .product__verticalline {
+    display: none !important;
+  }
+  .product__container {
+    width: 94% !important;
+  }
+  .prodspecification__cont {
+    width: 94% !important;
+    min-width: 94% !important;
+  }
+  .boughtTogether__container {
+    width: 94% !important;
+  }
+  .singleProduct__price {
+    font-size: 1rem !important;
+  }
+
+  .singleproduct__container1 {
+    height: 1148px !important;
+  }
+  .viewprodcontainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .boughtTogethercontainer {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 564px) {
+  .viewprodcontainer__products {
+    flex-direction: column;
+  }
+}
+
+.feature__rtborder {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  padding-right: 70px !important;
+}
+
+.product__features {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.productShipping {
+  color: #8c8a8a !important;
+  /* color: red !important; */
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 12px !important;
+  padding-left: 10px !important;
+  line-height: 20px !important;
+}
+
+.product__footer {
+  position: absolute;
+  bottom: -10px;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  height: 100px;
+  width: 100%;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.prodspecification__cont {
+  width: 88% !important;
+  height: min-content !important;
+}
+
+.singleProduct__price {
+  /* margin: 0 0 5px; */
+  color: #444;
+  font-weight: 500 !important;
+  margin-left: auto !important;
+  /* font-size: 25px; */
+  font-size: 1.5rem;
+}
+.singleproductPrice__content {
+  display: flex;
+  justify-content: between !important;
+  align-items: center;
+}
+.singleproductPrice__heading {
+  font-size: 16px;
+  font-weight: 400;
+}
+.singleProduct__qty {
+  font-size: 12px;
+  font-weight: 500;
+}
+.singleProduct__qtylink {
+  font-size: 12px;
+  font-weight: 600;
+}
+.singleProduct__quantity {
+  display: flex !important;
+  justify-content: center;
+}
+.singleproduct__qtybtn {
+  margin-left: 0;
+  margin-top: 10px;
+}
+.singleproduct__minreq {
+  margin-left: 2px !important;
+  font-size: 11px;
+}
+.singleproductPrice__units {
+  font-size: 11px;
+}
+
+.singleProduct__pricecolor {
+  color: #dd412d !important;
+}
+.bulkquantity__dropdown {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  font-size: 14px;
+}
+.bulkquantity__dropdown:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.ratechartdisappear {
+  display: none;
+  opacity: 0;
+}
+.singleproductaddcartbtn {
+  background-color: #297d8e !important;
+
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.singleproductbuynowbtn {
+  background-color: #dd412d !important;
+  margin-top: 7px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 500;
+  cursor: pointer;
+}

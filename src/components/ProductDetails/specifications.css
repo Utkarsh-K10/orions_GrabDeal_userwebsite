@@ -1,0 +1,67 @@
+.descbtn {
+  /* padding: 6px 10px 6px 10px;
+  border-radius: 10px;
+  background-color: #eceff1;
+  line-height: 20px;
+  text-decoration: none;
+
+  font-size: 12px;
+  font-weight: 600%;
+  display: inline-block;
+  
+  margin-right: 150px; */
+
+  /* padding-bottom: 10px; */
+  /* background: #fff; */
+  font-size: 16px;
+  color: #444 !important;
+}
+.descbtnli {
+  /* border-bottom: solid 1px #fff; */
+  padding: 8px 17px 9px;
+  margin: 0 0px 0 0;
+  border: solid 1px #e7e7e7;
+  border-bottom: 1px solid transparent;
+  background: #f2f2f2;
+  font-size: 14px;
+
+  color: #666;
+  outline: 0;
+}
+
+.descbtnli:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  color: #444 !important;
+  /* border-bottom: 1px solid #297d8e; */
+}
+
+.descbtnli.active {
+  background-color: white;
+  /* border-bottom: none !important; */
+  color: #444 !important;
+  border-bottom: 1px solid #297d8e;
+
+  /* border-bottom: 10px solid red; */
+}
+
+.tab-pane {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: none !important;
+  padding: 2px 2px 2px 2px;
+}
+
+.desctext {
+  padding: 0px 25px 17px 25px;
+  margin: 0;
+
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.productdesc {
+  margin-left: 200px;
+  padding-top: 1px;
+}

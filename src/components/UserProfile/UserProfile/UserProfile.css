@@ -1,0 +1,237 @@
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 25%;
+}
+.sidebar-header {
+  font-size: 25px;
+  font-weight: 700;
+  background-color: rgb(216, 216, 216);
+}
+.sidebar a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.sidebar a.active {
+  background-color: #bbc6c9;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.sidebar a:hover:not(.active) {
+  /* background-color: rgb(170, 165, 165); */
+  /* color: white; */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+div.content {
+  width: 75%;
+  background-color: #fff;
+  margin-left: 4vw;
+  box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  /* 
+  box-shadow: 10px 9px 21px -7px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 10px 9px 21px -7px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 10px 9px 21px -7px rgba(0, 0, 0, 0.65); */
+
+  /* margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px; */
+}
+
+.siderbar-options:hover {
+  font-weight: 700;
+}
+
+.Logo-userProfile {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+}
+
+.userProfilePortal {
+  display: inline-flex;
+  width: 100%;
+  background-color: #f1f3f6;
+  padding: 50px 6vw;
+}
+
+.SidebarMenu {
+  background-color: #fff;
+  /* box-shadow: 10px 9px 21px -7px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 10px 9px 21px -7px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 10px 9px 21px -7px rgba(0, 0, 0, 0.65); */
+
+  box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.Usercard {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 4px 3px 10px -2px rgba(0, 0, 0, 0.45);
+  /* box-shadow: 10px 9px 21px -7px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 10px 9px 21px -7px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 10px 9px 21px -7px rgba(0, 0, 0, 0.65); */
+}
+
+.Sidebar-col {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  padding: 5px;
+  margin-left: 30px;
+  align-items: center;
+  color: #297e8e;
+  font-weight: 600;
+}
+.sidebar-hr {
+  color: #adaaaa;
+  margin: 20px 0;
+}
+
+.siderbar-options {
+  color: black !important;
+  font-weight: normal;
+}
+.Usericon {
+  /* font-size: 24px; */
+  height: 28px;
+  width: 28px;
+}
+.SidebarIcon {
+  font-size: 24px;
+}
+
+.UserProfileMenuBtn {
+  position: fixed;
+  z-index: 1000;
+  font-size: 18px;
+  padding: 8px;
+  color: bisque;
+  background-color: #dd412d;
+  border: none;
+  border-radius: 30px 113px 113px 50px / 0px 79px 79px 0px !important;
+  outline: none;
+  align-items: center;
+  visibility: hidden;
+}
+
+.SidebarToggleMenu {
+  position: fixed !important;
+  top: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #fff !important;
+  opacity: 1 !important;
+  overflow: scroll !important;
+  /* box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); */
+}
+
+.profileList {
+  border-radius: 8px;
+  position: fixed;
+  z-index: 800;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+.profileList.active {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+@media only screen and (min-width: 1200px) {
+  .profileList.active {
+    visibility: hidden;
+  }
+}
+
+/* .siderbar-options:active{
+    font-weight: 900 !important;
+  } */
+
+/* .userProfileMangement-container{
+    margin: 0 !important;
+    width: 100% !important;
+  } */
+
+@media only screen and (min-width: 1900px) {
+  .userProfilePortal {
+    padding: 50px 10vw;
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  .userProfilePortal {
+    padding: 50px 15vw;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .sidebar {
+    width: 0;
+    visibility: hidden;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  div.content {
+    width: 100%;
+    margin-left: 0;
+    margin: 0 12px 0 12px;
+  }
+
+  .userProfilePortal {
+    padding: 0 2px 0 2px;
+  }
+
+  .UserProfileMenuBtn {
+    visibility: visible;
+  }
+}
+
+/* @media only screen and (max-width: 1200px){
+    .userProfilePortal{
+      display: block;
+    }
+
+    .sidebar{
+      display: inline-flex;
+      width: 100%;
+
+    } */
+
+/* .SidebarMenu{
+      display: inline-flex;
+    }
+
+    .Sidebar-col{
+      display: block;
+    } */
+.selected {
+  font-weight: bold !important;
+}
+
+.MuiAvatar-root.MuiAvatar-circular {
+  height: 80px;
+  width: 80px;
+}

@@ -1,0 +1,192 @@
+.MuiBox-root-16 {
+  padding: 0 !important;
+}
+
+.EditAdd {
+  /* background-color: #297E8E; */
+  color: #ffffff;
+  padding: 1.5vw 1vw;
+  width: 100%;
+  margin-top: 2vw !important;
+  max-width: initial !important;
+  margin: 0 !important;
+}
+
+.EditAddBtn {
+  align-items: center;
+  background-color: #297e8e;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+
+.plusIco {
+  font-size: 36px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.AddressTab {
+  position: relative;
+}
+
+.AddressCard {
+  /* top: 50 !important;
+    left: 50 !important;
+    padding: 1vw;
+    margin: 2vw 0; */
+  /* box-shadow: 4px 2px 4px 2px rgba(0, 0, 0, 0.1), 1px 3px 1px 3px rgba(0, 0, 0, 0.1) !important; */
+  border: 1px solid #e0e0e0;
+  margin-top: 20px;
+  border-radius: 2px 0;
+}
+
+.AddressBox {
+  width: 100%;
+}
+
+.AddressFrm {
+  background-color: #ffffff;
+  width: 100%;
+  z-index: 300;
+}
+
+.AddressFormMain {
+  margin: 1vw 0;
+}
+
+.Overlay {
+  position: absolute;
+  top: 0 !important;
+  left: 0 !important;
+  background-color: #ffffff;
+}
+
+.Username {
+  color: #dd412d;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.No {
+  color: #297e8e;
+  padding: 3px 0;
+  font-weight: 500;
+}
+
+.Ellipsis {
+  position: relative;
+  justify-content: flex-end;
+  background-color: #ffffff;
+  color: #297e8e;
+  border: none;
+}
+
+.AddCol {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.AddressDetail {
+  margin-bottom: 1vw;
+}
+
+.AddLabel {
+  color: black;
+  /* width: 20%; */
+}
+
+.Sec1 {
+  width: 20%;
+}
+.Sec2 {
+  width: 80%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.AddressMain {
+  width: 100% !important;
+}
+.AddressMain {
+  height: 10vw;
+}
+
+.SaveAddressBtn {
+  position: relative;
+  margin: 20px 0;
+  float: right;
+  width: 200px;
+  padding: 4px 10px;
+  background-color: #dd412d;
+  color: #fff;
+  border: 4px solid #dd412d;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.SaveAddressBtn:hover {
+  box-shadow: -4px 4px 16px -5px rgba(221, 65, 45, 1);
+  -webkit-box-shadow: -4px 4px 16px -5px rgba(221, 65, 45, 1);
+  -moz-box-shadow: -4px 4px 16px -5px rgba(221, 65, 45, 1);
+}
+
+.AddInputCol {
+  margin: 10px 0;
+  justify-content: space-between !important;
+}
+
+.AddInput {
+  padding: 4px 2px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  width: 30%;
+}
+
+@media only screen and (max-width: 515px) {
+  .AddInputCol {
+    display: block;
+  }
+
+  .Sec1 {
+    width: 100%;
+  }
+
+  .Sec2 {
+    width: 100%;
+    display: block;
+    line-height: 2;
+  }
+
+  .AddInput {
+    width: 100%;
+  }
+}
+.addressName {
+  font-size: 18px;
+  font-weight: 500;
+  color: #212121;
+}
+.nx-confirm-button-ok {
+  background-color: #297e8e !important;
+}
+.notiflix-confirm-head > h5 {
+  color: #297e8e !important;
+}
+
+.manageAddress__name {
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #212121;
+}
+
+.manageAddress__add {
+  font-size: 14px;
+  background-color: #f1f3f6;
+  color: #212121;
+}
+.manageAddress__edit:hover {
+  cursor: pointer;
+  font-weight: 500 !important;
+}

@@ -1,0 +1,138 @@
+.TrackContainer{
+    display: inline-flex;
+    margin: 4vw 2vw;
+    width: 100%;
+}
+
+.TrackOrderHd{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.SliderCol{
+    padding-right: 100px;
+}
+
+.VerticalRow{
+    margin: 0 20px;
+    width: 0;
+    height: 100%;
+    border: 1px solid #707070;
+    background-color: #707070;
+}
+
+.OrderDetailRow{
+    padding: 0 30px;
+    width: 80%;
+}
+
+.TrackOrderDetail{
+    position: relative;
+    float: right;
+    color: red !important;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.TrackProCaption{
+    margin: 8px 0;
+    font-weight: 700;
+    color: #297E8E;
+    font-size: 20px;
+}
+
+.TrackOrderImgRow{
+    margin-top: 5vw;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.TrackBtn{
+    margin-top: 3vw ;
+    position: relative;
+    float: right;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.OrdBtn{
+    margin: 0 10px;
+}
+
+.MuiSlider-track{
+    color: #297E8E !important;
+}
+
+.MuiSlider-markLabelActive{
+    color: #297E8E !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+}
+
+.MuiSlider-root.Mui-disabled{
+    color: #297E8E !important;
+}
+
+.WishlistImg{
+    width: 150px;
+    height: 150px;
+}
+
+.TrackOrderShippingAddressRow{
+    margin-left: 30px;
+}
+@media only screen and (max-width: 760px){
+
+    .TrackOrderImgRow{
+        display: block;
+    }
+
+    .TrackOrderShippingAddressRow{
+        margin-left: 0;
+    }
+
+    .TrackOrderDetail{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 980px){
+
+    .TrackBtn{
+        float: left;
+        display: block;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .OrdBtn{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 685px){
+    .TrackContainer{
+        display: block; 
+        
+
+    }
+
+    .VerticalRow{
+        visibility: hidden;
+    }
+
+    .TrackBtn{
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 0.7px solid #707070;
+    }
+
+    .SliderCol{
+        padding: 0;
+    }
+
+
+}
+
+

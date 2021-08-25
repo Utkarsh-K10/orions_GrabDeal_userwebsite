@@ -1,0 +1,45 @@
+.bulkquotationSuccessPage {
+    background-image: url(assets/ModalBgImg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+
+  
+.bulkquotationSuccess-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  
+  .bulkquotationSuccess-container h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+  }
+  
+  .bulkquotationSuccess-container div button {
+    background-color: #297e8e;
+    color: white;
+    font-size: 20px;
+    padding: 6px 20px;
+    margin: 20px;
+    font-weight: 500;
+  }
+
+  
+.bulkqutSuccessbtn {
+  background-color: #297e8e;
+  color: white;
+  font-size: 20px;
+  padding: 6px 20px;
+  margin: 20px;
+  font-weight: 500;
+}

@@ -1,0 +1,33 @@
+.card-view {
+  height: 350px !important;
+  /* width: 400px !important; */
+}
+
+.card-img {
+  height: 200px !important;
+}
+.productall__nohover {
+  display: none !important;
+}
+.productall__hover {
+  display: block !important;
+}
+.hoverable__productall {
+  /* margin-bottom: 40px; */
+  min-height: 350px;
+  max-width: 20% !important;
+  min-width: 300px;
+  padding: 0 !important;
+}
+.hoverable__productall:hover > .productall__nohover {
+  display: block !important;
+}
+.hoverable__productall:hover > .productall__hover {
+  display: none !important;
+}
+.productCardImg > a {
+  width: 100%;
+}
+.productCardImg > a > img {
+  width: 100%;
+}

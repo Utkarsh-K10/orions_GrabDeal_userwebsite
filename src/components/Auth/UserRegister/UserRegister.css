@@ -1,0 +1,208 @@
+.UserSignUpPortal {
+  display: inline-flex;
+  width: 100vw;
+  height: auto;
+}
+.pswdChecker {
+  height: 10px;
+  max-width: 487px;
+  display: flex;
+  justify-content: center;
+}
+.pass-error {
+  max-width: 500px;
+  display: flex;
+  justify-content: center !important;
+}
+
+.PortalImgBackground {
+  width: 45%;
+  background-image: url(Assets/loginbg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  position: relative;
+}
+
+.SignUpFormSection {
+  width: 55%;
+  min-height: 100vh;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  padding: 80px 0;
+}
+.progress {
+  width: 91%;
+  margin-left: 50px;
+}
+
+.FormHd {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.FormSubHd {
+  font-size: 1.3rem;
+  margin-bottom: 45px;
+}
+
+.UserSignUpForm {
+  padding: 2vw 0;
+  line-height: 2;
+}
+
+.SignUpIco {
+  color: #dd412d;
+  font-size: 35px;
+  margin-right: 15px;
+}
+
+.signupInput {
+  border: none;
+  border-bottom: 2px solid #cccaca !important;
+  width: 450px;
+  font-size: 1.1rem !important;
+  margin: 10px 0;
+}
+.signupInput::placeholder {
+  font-size: 1.1rem !important;
+  color: #828181;
+}
+.loginbtn {
+  margin: 80px 0 0;
+  width: 100%;
+  padding: 4px 0;
+  text-align: center;
+  background-color: #dd4128;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.Or {
+  font-size: 1.5rem;
+  color: #828181;
+  font-weight: 700;
+  margin: 20px;
+}
+
+.GoogleSignUp {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid black;
+  padding: 4px 0;
+  width: 100%;
+  align-content: center;
+}
+
+.OldUserLink {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #297e8e !important;
+}
+
+.loginbtn:hover {
+  box-shadow: -4px 4px 16px -5px rgba(221, 65, 45, 1);
+  -webkit-box-shadow: -4px 4px 16px -5px rgba(221, 65, 45, 1);
+  -moz-box-shadow: -4px 4px 16px -5px rgba(221, 65, 45, 1);
+}
+
+.GoogleSignUp:hover {
+  box-shadow: -4px 4px 16px -5px #000;
+  -webkit-box-shadow: -4px 4px 16px -5px #000;
+  -moz-box-shadow: -4px 4px 16px -5px #000;
+}
+.loginSuccesPage {
+  background-image: url(./Assets/ModalBgImg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.userLoginSuccess-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  align-items: center;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.userLoginSuccess-container h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 800;
+}
+.userLoginSuccess-container div button {
+  background-color: #297e8e;
+  color: white;
+  font-size: 20px;
+  padding: 6px 20px;
+  margin: 20px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 950px) {
+  .PortalImgBackground {
+    width: 0;
+  }
+
+  .SignUpFormSection {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 605px) {
+  .signupInput {
+    width: 300px;
+    line-height: 2;
+  }
+
+  .SignUpFormSection {
+    padding: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+  .signupInput {
+    width: 200px;
+    margin: 10px;
+  }
+
+  .SignUpFormSection {
+    padding: 30px 0;
+  }
+
+  .SignUpIco {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .signupInput {
+    width: 500px;
+  }
+}
+
+/* @media only screen and (min-width: 1900px){
+    .signupInput{
+      
+        line-height: 3;
+    }
+} */
+
+/* @media only screen and (min-width: 2100px){
+    .signupInput{
+        width: 1000px;
+    }
+} */

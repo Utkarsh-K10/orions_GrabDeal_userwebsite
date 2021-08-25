@@ -1,0 +1,20 @@
+.UsercardData {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 100px;
+}
+
+.UserPic {
+  margin-right: 8px;
+}
+
+.UsercardGreeting {
+  font-size: 18px;
+}
+
+.UsercardName {
+  font-size: 18px;
+  font-weight: 600;
+}

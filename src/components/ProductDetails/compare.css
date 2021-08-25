@@ -1,0 +1,37 @@
+tbody td {
+	height: 10vh;
+	align-items: center;
+}
+.table {
+	table-layout: fixed;
+}
+thead th {
+	background-color: white;
+}
+.change {
+	color: #297e8e;
+}
+
+.content-center {
+	justify-content: center;
+}
+.top {
+	z-index: 1;
+}
+.img-table thead th {
+	border: none;
+	border-bottom: none;
+}
+
+button {
+	border-radius: 0% !important;
+}
+.card-img{
+	height: 300px;
+	width: 300px;
+}
+
+.product-price{
+	font-size: 16px;
+	font-weight: 500;
+}
