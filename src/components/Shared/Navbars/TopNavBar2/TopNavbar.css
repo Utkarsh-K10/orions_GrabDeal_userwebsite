@@ -154,7 +154,7 @@ select:focus {
   color: white !important;
   /* font-size: 18px; */
 
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
   width: 100%;
   margin-left: 0.8rem;
@@ -565,4 +565,8 @@ select:focus {
 
 .temptemp {
   height: 1000px !important;
+}
+
+.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit {
+  margin-left: 24px;
 }

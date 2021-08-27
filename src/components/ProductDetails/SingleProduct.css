@@ -157,7 +157,7 @@ ul {
   margin-top: 50px;
 }
 .statusinfo {
-  color: red !important;
+  color: #f39c12 !important;
 }
 
 .imageprod:hover {

@@ -64,9 +64,9 @@ svg {
   color: #e67e22 !important;
 }
 .btn-veiw {
-  border: 3px solid red !important;
+  border: 3px solid #e67e22 !important;
   border-radius: 0 !important;
-  color: red !important;
+  color: #e67e22 !important;
 }
 .strikethrough {
   position: relative;

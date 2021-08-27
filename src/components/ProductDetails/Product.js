@@ -214,10 +214,10 @@ function Product({ id }) {
             </div>
           </div>
         </div>
-        <h3 className="colord m-3 mb-5">+ Add area</h3>
+
         <div className="d-flex calculate mt-5">
           <button
-            className=" btn-danger btn-lg btn-default mr-4"
+            className=" colord btn-lg btn-default mr-4"
             onClick={() => setArea(lengthArea * widthArea)}
           >
             Calculate

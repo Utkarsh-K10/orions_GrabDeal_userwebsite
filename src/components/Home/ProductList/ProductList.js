@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useContext, useEffect, useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import ItemsCarousel from "react-items-carousel";
-import ProductDefaultImage from "./assets/ProductImg.png";
+import ProductDefaultImage from "./assets/prodimg.png";
 import "./ProductList.css";
 import UserContext from "../../../App.js";
 import Notiflix from "notiflix";

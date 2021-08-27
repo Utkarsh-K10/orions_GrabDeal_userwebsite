@@ -11,20 +11,20 @@ const MenubarContent = () => {
     <div className="Navbargrid-container">
       <div>
         <Link to="/ourservices">
-          <a className="Link">OUR SERVICES</a>
+          <a className="Link">Our Services</a>
         </Link>
       </div>
       <div>
-        <Link to="/hiring">HIRE PROFESSIONALS</Link>
+        <Link to="#">About Us</Link>
       </div>
       <div>
         <a className="Link" href="#">
-          PROFESSIONAL'S SPACE
+          Sell on Material Buy
         </a>
       </div>
       <div>
         <a className="Link" href="tel:+919876543210">
-          BUY ON CALL-9876543210
+          Buy On Call-9876543210
         </a>
       </div>
     </div>

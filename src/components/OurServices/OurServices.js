@@ -77,7 +77,6 @@ const OurServices = () => {
           <ServiceNavbar></ServiceNavbar>
           <div className="colord m-5 mb-2">
             <div className="text-center mb-0">
-              \
               <h2 className="text-center">
                 <strong>Our Services</strong>
               </h2>

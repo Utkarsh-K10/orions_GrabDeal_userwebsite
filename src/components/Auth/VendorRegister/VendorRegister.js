@@ -59,7 +59,6 @@ const VendorRegister = () => {
       })
       .then((res) => {
         if (res.data.message === "Mail Exists") {
-          console.log("res.data", "already");
           setError("Email already registered ! Please Login !");
           setButtonText("Create Account");
         } else {
@@ -117,7 +116,7 @@ const VendorRegister = () => {
 
     if (e.target.id == "Email") {
       if (EMAIL_VALIDATOR.test(e.target.value)) {
-        if (inputError.email) {
+        if (inputError.name) {
         } else {
           setDisableButton(false);
           setError("");
